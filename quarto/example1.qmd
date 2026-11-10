@@ -1,0 +1,35 @@
+---
+title: "Hello World"
+author: ''
+subtitle: "Hello World"
+output-file: index
+lightbox: true
+embed-resources: true
+format:
+  dashboard:
+    orientation: columns
+---
+
+```{python}
+#| tags: [parameters]
+
+parameterA = "IRE"
+parameterB = 1
+
+```
+
+
+### Column {width="100%"}
+
+
+#### Row {height="100%"}
+
+::: {.card title="Hello world"}
+Hello world
+:::
+
+```{python}
+#| title: Parameters
+
+print(f"parameterA = {parameterA}, parameterB = {parameterB}")
+```

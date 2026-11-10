@@ -1,0 +1,4 @@
+project:
+  output-dir: ../reports
+  render:
+    - example1.qmd
